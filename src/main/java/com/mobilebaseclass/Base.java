@@ -89,6 +89,7 @@ public static boolean checkIfServerIsRunnning(int port) {
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		System.out.println("app open successfully");
+System.out.println("app open successfully1");
 	    return driver;
 	}
 	public  static void  getScreenShot(String s) throws IOException
